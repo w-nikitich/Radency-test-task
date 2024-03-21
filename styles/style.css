@@ -1,0 +1,30 @@
+.mountain_game {
+    margin: 0;
+    padding: 0;
+}
+
+.mountain_line {
+    display: flex;
+    justify-content: center;
+}
+
+.mountain_line p {
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.example {
+    position: relative;
+    border: 1px black solid;
+    padding: 10px;
+    width: 30vw;
+    margin-top: 10px;
+}
+
+.example::after {
+    content: '.txt';
+    position: absolute;
+    top: -20px;
+    right: 0;
+
+}
